@@ -21,7 +21,7 @@ function getOptions(message) {
         options.fortune = true;
     }
 
-    if (command[2] && command[2] === 'think') {
+    if ((command[2] && command[2] === 'think') || (command[4] && command[4] === 'think')) {
         options.cowthink = true;
     }
 
