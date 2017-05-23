@@ -13,7 +13,6 @@
   "dependencies": {
     "cowsay.js": "file:///home/john/Dev/cowsay.js",
     "discord.js": "^11.1.0",
-    "minimist": "^1.2.0",
     "node-cmd": "^3.0.0"
   }
 }
