@@ -25,7 +25,7 @@ function getOptions(message) {
         options.cowthink = true;
     }
 
-    let content = message.content.substr(commandReg.lastIndex);
+    let content = message.content;
 
     //the properties / options that are allowed, sorted by type
     const props = {
