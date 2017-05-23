@@ -1,0 +1,19 @@
+{
+  "name": "cowsay-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Use the cowsay command in discord",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Ingve Olsen",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay.js": "file:///home/john/Dev/cowsay.js",
+    "discord.js": "^11.1.0",
+    "minimist": "^1.2.0",
+    "node-cmd": "^3.0.0"
+  }
+}
