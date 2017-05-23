@@ -11,7 +11,7 @@
   "author": "John Ingve Olsen",
   "license": "ISC",
   "dependencies": {
-    "cowsay.js": "file:///home/john/Dev/cowsay.js",
+    "cowsay.js": "git+https://github.com/Raytar/cowsay.js.git",
     "discord.js": "^11.1.0",
     "node-cmd": "^3.0.0"
   }
